@@ -1,0 +1,138 @@
+html, body {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+
+.content {
+    flex: 1 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.drink_heading {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    /* background-color: blue; */
+    display: block;
+}
+
+.drink_heading h1{
+    font-size: 3em;
+    letter-spacing: 4.5px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer_base {
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1em;
+}
+
+button {
+    display:inline-block;
+    padding: 1em 1.8em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.4em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    /* color:#FFFFFF; */
+    text-align:center;
+    transition: all 0.2s;
+}
+button:hover {
+ color:#000000;
+ background-color:#FFFFFF;
+ cursor: pointer;
+ background-color: ivory;
+}
+
+/* Table shenannigans */
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.flexbox_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.item1 {
+
+}
+
+.item2 {
+    padding-top: 1.5em;
+}
+
+.index_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.login_out {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="index_header">
+        {% if current_user.username %}
+            <h1>Hello, {{ current_user.username }}! Nice to see you!</h1>
+        {% else %}
+            <h1>Hello there stranger !</h1>
+        {% endif %}
+
+    </div>
+    <!-- <button type=button><a href=/table>Configure the Table with all the Drinks</a></button> -->
+
+{% endblock %}

@@ -1,0 +1,39 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="flexbox_container">
+        <div class="item1">
+            <table>
+                    <tr>
+                        <th style="text-align: left">Item</th>
+                        <th style="text-align: left">Quantity</th>
+                    </tr>
+
+                {% for i in all %}
+                    <tr>
+                        <td>{{ i.item }}</td>
+                        <td>{{ i.quantity }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <div class="item2">
+            <div>Add the drink and its ideal stock:
+                <form action="/add" method="POST">
+                    <input type="text" id="drink" name="drink">
+                    <input type="number" id="how_many" name="how_many">
+                    <button type="submit">Insert the data</button>
+                </form>
+            </div>
+
+            <div>Delete a row by id:
+                <form action="/delete" method="POST">
+                    <input type=text name='item'>
+                    <button type="submit">Delete this row</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

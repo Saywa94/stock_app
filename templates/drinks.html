@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <form action="/compare" method="POST">
+        {% for drink in drinks_list %}
+                <div class="drink_heading" id="{{ loop.index0 }}">
+                        <h1>{{ drink }}<h1>
+
+                    <input name="{{ drink }}" type="number" required></input>
+
+                    <button type ="button" onclick="nextDrink('{{ loop.index0 }}')">Next</button>
+                </div>
+        {% endfor %}
+        <div class="drink_heading">
+            <!-- <button onclick="showNewList()">View entire list</button> -->
+            <button type="submit">Validate input</button>
+        </div>
+    </form>
+{% endblock %}
