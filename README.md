@@ -2,7 +2,9 @@
 
 ## Description
 
-The purpose of this app is to restock easily. You first :
+The purpose of this app is to restock easily.
+
+You first :
 - input items and their ideal amout to have a full stock in the 'Configure' tab.
 - input the actual amount of stck ou have in the 'Start' tab.
 
@@ -15,4 +17,7 @@ This project is a learning tool for me. Please use at you own risk.
 
 This is a web app using Python and the Flask framework. It can only run locally but I'll be making online version soon.
 
+I recommend using a python virtual environment, and only there intall all the pip dependencies.
+
 It still is in development so don't expect for it to work perfectly, or even at all.
+
