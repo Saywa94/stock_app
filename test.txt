@@ -1,9 +1,0 @@
-Este es un texto de prueba
-
-lolol
-
-jejeje
-
-normalmente este texto no va a aparecer en el master branch
-
-deberia no aparecer
