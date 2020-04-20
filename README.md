@@ -17,7 +17,7 @@ This project is a learning tool for me. Please use at you own risk.
 
 This is a web app using Python and the Flask framework. It can only run locally but I'll be making online version soon.
 
-I recommend using a python virtual environment, and only there intall all the pip dependencies.
+I recommend using a python virtual environment, and only there install all the pip dependencies with `pip install -r requirements.txt`. Only then use `flask run` to activate the server. Then open the browser to the localhost.
 
-It still is in development so don't expect for it to work perfectly, or even at all.
+It's still under development so expect errors and bugs.
 
