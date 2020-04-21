@@ -16,3 +16,6 @@ six==1.14.0
 SQLAlchemy==1.3.15
 Werkzeug==1.0.0
 WTForms==2.2.1
+
+# Requirements for Docker container
+gunicorn==20.0.4
