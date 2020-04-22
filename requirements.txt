@@ -19,3 +19,4 @@ WTForms==2.2.1
 
 # Requirements for Docker container
 gunicorn==20.0.4
+pymysql==0.9.3
